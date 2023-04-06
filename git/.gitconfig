@@ -1,0 +1,15 @@
+[user]
+	name = gabrielgarcia-01
+	email = 122548028+gabrielgarcia-01@users.noreply.github.com
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[color]
+	ui = true
