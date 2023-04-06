@@ -1,4 +1,5 @@
-/spotifyd/
-/git/
-/neofetch/
-/spotify-tui/
+**/gtk-3.0
+**/gtk-4.0
+**/git
+**/spotify-tui
+**/spotifyd
