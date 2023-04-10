@@ -29,3 +29,12 @@ alias path='echo -e ${PATH//:/\\n}'
 # disk usage
 alias du='du -kh'
 alias df='df -kTh'
+
+# running obsidian
+alias obsidian='obsidain --enable-features=UseOzonePlatform --ozone-platform=wayland'
+
+# weather curl
+alias weather='curl wttr.in/Miami'
+
+# programmer calculator
+alias pcalc='pcalc --colors'

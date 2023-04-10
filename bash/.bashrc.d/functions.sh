@@ -17,6 +17,15 @@ function rgh() {
     fi
 }
 
+function rgp() {
+    # [p]ackage [g]rep
+    if [[ "$1" ]]; then
+        paru -Q | rg "$1"
+    else
+        echo -e "rgp needs a pattern to look for"
+    fi
+}
+
 # ----------------------------------------------------------------------------------
 # Files
 # ----------------------------------------------------------------------------------
@@ -62,7 +71,7 @@ function extract() {
 }
 
 # tre editor alias
-# function tre() { command tre "$@" -e && source "/tmp/tre_aliases_$USER" 2>/dev/null; }
+function tre() { command tre "$@" -e && source "/tmp/tre_aliases_$USER" 2>/dev/null; }
 
 function nman() {
     # [n]eovim [man] pages
@@ -77,25 +86,7 @@ function nman() {
 # System monitoring
 # ----------------------------------------------------------------------------------
 
-function netu() {
-    # [net]work [u]sage
-    net_device=$(ip route | awk '/via/ {print $5}')
-    TRANSMITTED=$(ifconfig "$net_device" | awk '/TX packets/ {print $6$7}')
-    RECEIVED=$(ifconfig "$net_device" | awk '/RX packets/ {print $6$7}')
-    pc_uptime=$(aptime -p | awk '{for (i=2; i<NF; i++) printf $i " "; if (NF >= 1) print $NF; }')
-
-    printf "%s\n" "🖥️  $(hostname) netu"
-    printf "%s\n" "since: $pc_uptime"
-    printf "%s\n" "$(tput bold)🔼 TRANSMITTED $(tput sgr0): $TRANSMITTED"
-    printf "%s\n" "$(tput bold)🔽 RECEIVED    $(tput sgr0): $RECEIVED"
-}
-
-# [my] [ip] address
 function myip() {
+    # [my] [ip] address
     echo -e "🌐 $(curl -s https://api.ipify.org)"
-}
-
-# [s]peed [t]est
-function stest() {
-    echo -e "🚀 $(curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -)"
 }
