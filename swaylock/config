@@ -1,6 +1,6 @@
 ignore-empty-password
 disable-caps-lock-text
-font=Cantarelle Regular
+font = JetBrains Mono
 #font-size=9
 
 effect-blur=7x5
@@ -8,16 +8,16 @@ indicator
 indicator-radius=120
 indicator-thickness=20
 clock
-timestr=%I:%M %p
-datestr=%A, %d %B
-ring-color=14326B
-key-hl-color=C3E88D
-line-color=2E3440
-separator-color=3B4252
-inside-color=315B94
-bs-hl-color=FF757F
-layout-bg-color=3B4252
-layout-border-color=4C566A
-layout-text-color=D8DEE9
-text-color=D8DEE9
+timestr = %I:%M %p
+datestr = %A, %d %B
+ring-color = 202A48
+key-hl-color = 9ECE6A
+line-color = 202A48
+separator-color = 3B4252
+inside-color = 7AA2F7
+bs-hl-color = F7768E
+layout-bg-color = 3B4252
+layout-border-color = 4C566A
+layout-text-color = A9B1D6
+text-color = A9B1D6
 # vim:ft=conf

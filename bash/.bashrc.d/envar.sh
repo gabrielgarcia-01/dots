@@ -12,5 +12,8 @@ export VISUAL
 # vi keybindings in bash
 set -o vi
 
+# java options
+export JDK_JAVA_OPTIONS='Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -Dswing.crossplatformlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
+
 # Wayland fixes
 MOZ_ENABLE_WAYLAND=1

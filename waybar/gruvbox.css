@@ -1,0 +1,14 @@
+/* Gruvbox theme for Waybar */
+
+@define-color base #fbf1c7;
+@define-color mantle #ebdbb2;
+@define-color crust #d5c4a1;
+
+@define-color text #3c3836;
+
+@define-color blue #076678;
+@define-color cyan #458588;
+@define-color green #427b58;
+@define-color red #cc241d;
+@define-color yellow #d79921;
+@define-color magenta #b16286;

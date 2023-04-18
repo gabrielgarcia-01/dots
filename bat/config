@@ -1,0 +1,9 @@
+# Set them to Nord
+--theme="Catppuccin-mocha"
+
+# Show line numbers, git diffs, file header, and grid
+--style="numbers,changes,header,grid"
+
+# Use italic text in the terminal
+--italic-text=always
+

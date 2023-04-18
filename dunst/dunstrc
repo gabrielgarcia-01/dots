@@ -1,5 +1,5 @@
 [global]
-  font = "Product Sans"
+  font = "JetBrains Mono"
 
 	# Allow a small subset of html markup:
 	# <b>bold</b>
@@ -86,11 +86,11 @@
 
 	# Frame
 	frame_width = 3
-	frame_color = "#1C2325"
+	frame_color = "#223050"
 
 	# The transparency of the window. range: [0; 100]
 	# This option will only work if a compositing windowmanager is present (e.g. xcompmgr, compiz, etc..)
-	transparency = 50
+	transparency = 70
 
 	# Don't remove messages, if the user is idle (no mouse or keyboard input)
 	# for longer than idle_threshold seconds.
@@ -181,30 +181,30 @@
 
 [urgency_low]
 	timeout = 6
-	background = "#0d0f16"
+	background = "#223050"
 	foreground = "#CDD6F4"
-	frame_color = "#191d24"
-	highlight = "#7ba5dd"
+	frame_color = "#223050"
+	highlight = "#7AA2F7"
 
 [urgency_normal]
 	# script = ~/.config/dunst/scripts/playNotificationSound.sh
 	timeout = 6
-	background = "#0d0f16"
+	background = "#223050"
 	foreground = "#CDD6F4"
-	frame_color = "#0d0f16"
-	highlight = "#7ba5dd"
+	frame_color = "#223050"
+	highlight = "#7AA2F7"
 
 [urgency_critical]
 	script = ~/.config/dunst/scripts/playNotificationSound.sh
 	timeout = 6
-	background = "#0d0f16"
+	background = "#223050"
 	foreground = "#CDD6F4"
-	frame_color = "#0d0f16"
-	highlight = "#ee6a70"
+	frame_color = "#223050"
+	highlight = "#FF757F"
 
 [backlight]
 	summary = "Backlight"
-	highlight = "#ffb29b"
+	highlight = "#FFC777"
 	set_stack_tag = "backlight"
 
 [volume]
@@ -213,8 +213,8 @@
 
 [volume-muted]
 	summary = "Volume Muted"
-	highlight = "#ee6a70"
+	highlight = "#FF757F"
 
 [volume-unmuted]
 	summary = "Volume Unmuted"
-	highlight = "#ee6a70"
+	highlight = "#FF757F"

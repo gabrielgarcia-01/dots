@@ -19,6 +19,9 @@ alias mv='mv -iv'
 
 # alias rn='rename'
 
+# fzf with preview window + bat syntax highlighting
+alias fzf='fzf --preview "bat --color=always {}" --preview-window '~3''
+
 # ----------------------------------------------------------------------------------
 # misc
 # ----------------------------------------------------------------------------------
@@ -38,3 +41,6 @@ alias weather='curl wttr.in/Miami'
 
 # programmer calculator
 alias pcalc='pcalc --colors'
+
+# funsies
+alias quote='fortune | cowsay -f tux | lolcat'

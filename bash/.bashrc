@@ -25,9 +25,6 @@ PS1='[\u@\h \W]\$ '
 # Clean up PATH
 PATH="$(perl -e 'print join(":", grep { not $seen{$_}++ } split(/:/, $ENV{PATH}))')"
 
-# Uncomment the following line if you don't like systemctl's auto-paging feature:
-# export SYSTEMD_PAGER=
-
 # ----------------------------------------------------------------------------------
 # Source aliases and functions from .bashrc.d
 # ----------------------------------------------------------------------------------
@@ -40,3 +37,5 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
+
+source /usr/share/nvm/init-nvm.sh
