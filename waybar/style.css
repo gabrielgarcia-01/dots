@@ -1,4 +1,4 @@
-@import "/home/gabriel/dots/waybar/tokyonight.css";
+@import "/home/gabriel/dots/waybar/catppuccin.css";
 
 * {
   /* `otf-font-awesome` is required to be installed for icons */
@@ -35,7 +35,7 @@ window#waybar.hidden {
 }
 
 #disk {
-  color: @magenta;
+  color: @lavender;
 }
 
 #workspaces button {
@@ -77,7 +77,7 @@ window#waybar.hidden {
 
   font-size: 18px;
 
-  color: @cyan;
+  color: @sky;
 
   margin-top: 8.5px;
   margin-bottom: 8.5px;
@@ -104,13 +104,13 @@ window#waybar.hidden {
 }
 
 #pulseaudio {
-  color: @magenta;
+  color: @lavender;
   padding-left: 9px;
   font-size: 18px;
 }
 
 #pulseaudio.muted {
-  color: #FF966C;
+  color: @orange;
   padding-left: 9px;
   font-size: 18px;
 }
@@ -166,7 +166,7 @@ window#waybar.hidden {
 
 @keyframes blink {
   to {
-    background-color: rgba(30, 34, 42, 0.5);
+    background-color: @base;
     color: #abb2bf;
   }
 }

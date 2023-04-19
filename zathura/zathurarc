@@ -1,39 +1,4 @@
-#colors
 set font                        "jetbrains mono 10"
-set default-bg                  "#223050" 
-set default-fg                  "#223050" 
-
-set statusbar-fg                "#A9B1D6" 
-set statusbar-bg                "#223050" 
-
-set inputbar-bg                 "#223050" 
-set inputbar-fg                 "#C8D3F5" 
-
-set index-bg                   "#223050" 
-set index-fg                   "#A9B1D6" 
-set index-active-bg             "#7AA2F7" 
-set index-active-fg             "#C8D3F5" 
-
-set notification-error-bg       "#F7768E" 
-set notification-error-fg       "#1B1D2B" 
-
-set notification-warning-bg     "#F7768E" 
-set notification-warning-fg     "#1B1D2B" 
-
-set highlight-color             "#E0AF68" 
-set highlight-active-color      "#7AA2F7" 
-
-set completion-highlight-fg     "#1B1D2B" 
-set completion-highlight-bg     "#7DCFFF" 
-
-set completion-bg               "#1B1D2B" 
-set completion-fg               "#7DCFFF" 
-
-set notification-bg             "#9ECE6A" 
-set notification-fg             "#223050" 
-
-set recolor-lightcolor          "#223050" 
-set recolor-darkcolor           "#A9B1D6" 
 set recolor                     "true"
 
 # setting recolor-keep true will keep any color your pdf has.
@@ -94,3 +59,5 @@ map [fullscreen] <C-o> jumplist backward
 map [fullscreen] <C-i> jumplist forward
 
 map [index] q quit
+
+include catppuccin-frappe

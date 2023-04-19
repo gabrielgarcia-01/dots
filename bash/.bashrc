@@ -37,5 +37,3 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
-
-source /usr/share/nvm/init-nvm.sh
