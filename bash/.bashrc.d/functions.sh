@@ -20,7 +20,7 @@ function rgh() {
 function rgp() {
     # [p]ackage [g]rep
     if [[ "$1" ]]; then
-        paru -Q | rg "$1"
+        yay -Q | rg "$1"
     else
         echo -e "rgp needs a pattern to look for"
     fi

@@ -40,9 +40,3 @@ alias discord='discord --enable-features=UseOzonePlatform --ozone-platform=wayla
 
 # weather curl
 alias weather='curl wttr.in/Miami'
-
-# programmer calculator
-alias pcalc='pcalc --colors'
-
-# funsies
-alias quote='fortune | cowsay -f tux | lolcat'

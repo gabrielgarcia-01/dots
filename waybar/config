@@ -1,3 +1,5 @@
+#vim set ft=yaml
+
 {
     "height": 35, // Waybar height (to be removed for auto height)
     "layer": "top", // Waybar at top layer
@@ -85,7 +87,7 @@
     },
    "custom/lock": {
        "tooltip" : false,
-       "on-click": "swaylock --image /home/gabriel/dots/hypr/wallpapers/street.jpg",
+       "on-click": "swaylock --image /home/gabriel/dots/hypr/wallpapers/aureliusfrappe.png",
        "format" : "",
     },
     "custom/power-menu": {

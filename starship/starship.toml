@@ -8,6 +8,7 @@ symbol = " "
 
 [c]
 symbol = " "
+style = "bold blue"
 
 [conda]
 symbol = " "
@@ -17,6 +18,7 @@ symbol = " "
 
 [directory]
 read_only = " "
+style = "bold blue"
 
 [docker_context]
 symbol = " "
@@ -36,11 +38,15 @@ symbol = " "
 [golang]
 symbol = " "
 
+[gradle]
+symbol = " "
+
 [guix_shell]
 symbol = " "
 
 [haskell]
 symbol = " "
+style = "bold mauve"
 
 [haxe]
 symbol = "⌘ "
@@ -74,6 +80,10 @@ symbol = " "
 
 [nodejs]
 symbol = " "
+
+[ocaml]
+symbol = " "
+style = "bold yellow"
 
 [os.symbols]
 Alpaquita = " "
@@ -133,6 +143,7 @@ symbol = " "
 
 [rust]
 symbol = " "
+style = "bold peach"
 
 [scala]
 symbol = " "

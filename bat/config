@@ -1,5 +1,5 @@
-# Set them to Nord
---theme="Catppuccin-mocha"
+# Set theme to Catppuccin-frappe
+--theme="Catppuccin-frappe"
 
 # Show line numbers, git diffs, file header, and grid
 --style="numbers,changes,header,grid"

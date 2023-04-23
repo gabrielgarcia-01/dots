@@ -6,15 +6,15 @@ return {
     opts = {
       ---@type lspconfig.options
       servers = {
-        pyright = {},
-        jdtls = {},
-        rust_analyzer = {},
-        -- tsserver = {},
-        gopls = {},
         bashls = {},
         clangd = {},
-        -- html = {},
+        gopls = {},
+        hls = {},
+        jdtls = {},
+        pyright = {},
         marksman = {},
+        rust_analyzer = {},
+        -- tsserver = {},
       },
     },
   },
@@ -69,6 +69,7 @@ return {
         "c",
         "cpp",
         "go",
+        "haskell",
         -- "help",
         -- "html",
         -- "javascript",
@@ -132,5 +133,8 @@ return {
   -- vim be good
   {
     "ThePrimeagen/vim-be-good",
+  },
+  {
+    "mrcjkb/haskell-tools.nvim",
   },
 }
