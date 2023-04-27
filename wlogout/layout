@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "swaylock --image /home/gabriel/dots/hypr/wallpapers/aureliusfrappe.png",
+    "action" : "swaylock --image /home/gabriel/dots/hypr/wallpapers/cat.png",
     "text" : "Lock",
     "keybind" : "l"
 }

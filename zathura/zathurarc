@@ -60,4 +60,4 @@ map [fullscreen] <C-i> jumplist forward
 
 map [index] q quit
 
-include catppuccin-frappe
+include catppuccin-mocha

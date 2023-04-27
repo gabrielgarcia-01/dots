@@ -137,4 +137,7 @@ return {
   {
     "mrcjkb/haskell-tools.nvim",
   },
+  {
+    "elkowar/yuck.vim",
+  },
 }

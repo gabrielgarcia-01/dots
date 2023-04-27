@@ -37,5 +37,3 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
-
-[ -f "/home/gabriel/.ghcup/env" ] && source "/home/gabriel/.ghcup/env" # ghcup-env

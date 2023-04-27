@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Change the default editor
 EDITOR=/usr/bin/nvim
@@ -20,9 +20,17 @@ QT_QPA_PLATFORMTHEME=qt5ct
 
 # FZF_DEFAULT_OPTS
 export FZF_DEFAULT_OPTS=" \
---color=bg+:#414559,bg:#303446,spinner:#f2d5cf,hl:#e78284 \
---color=fg:#c6d0f5,header:#e78284,info:#ca9ee6,pointer:#f2d5cf \
---color=marker:#f2d5cf,fg+:#c6d0f5,prompt:#ca9ee6,hl+:#e78284"
+--color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
+--color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
+--color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
 
 export MOZ_ENABLE_WAYLAND
 export QT_QPA_PLATFORMTHEME
+
+# ghcup
+[ -f "/home/gabriel/.ghcup/env" ] && source "/home/gabriel/.ghcup/env" # ghcup-env
+
+# silence the java warning
+SILENT_JAVA_OPTIONS="$JDK_JAVA_OPTIONS"
+unset JDK_JAVA_OPTIONS
+alias java='java "$SILENT_JAVA_OPTIONS"'
