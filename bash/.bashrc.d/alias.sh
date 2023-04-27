@@ -2,8 +2,9 @@
 # ----------------------------------------------------------------------------------
 # ls
 # ----------------------------------------------------------------------------------
-alias ls='exa --all --long'
+alias ls='exa --icons --all --long'
 alias lsl='exa --all --long --tree --git-ignore --icons'
+alias l='exa --icons --long'
 
 # ----------------------------------------------------------------------------------
 # cd
@@ -21,6 +22,11 @@ alias mv='mv -iv'
 
 # fzf with preview window + bat syntax highlighting
 alias fzf='fzf --preview "bat --color=always {}" --preview-window '~3''
+
+# kitty
+alias icat='kitty +kitten icat'
+
+alias ..='cd ..'
 
 # ----------------------------------------------------------------------------------
 # misc
