@@ -30,7 +30,12 @@ export QT_QPA_PLATFORMTHEME
 # ghcup
 [ -f "/home/gabriel/.ghcup/env" ] && source "/home/gabriel/.ghcup/env" # ghcup-env
 
+# zig
+export PATH="$PATH:/home/gabriel/zig"
+
 # silence the java warning
 SILENT_JAVA_OPTIONS="$JDK_JAVA_OPTIONS"
 unset JDK_JAVA_OPTIONS
 alias java='java "$SILENT_JAVA_OPTIONS"'
+
+export QT_QPA_PLATFORMTHEME=qt6ct

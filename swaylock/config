@@ -1,21 +1,39 @@
+# Font settings
+font=Iosevka
+font-size=24
+
+# Settings
 ignore-empty-password
-font = JetBrains Mono
+disable-caps-lock-text
+indicator-caps-lock
+
+show-failed-attempts
+
+indicator-radius=120
+indicator-thickness=20
 
 effect-blur=7x5
-indicator
-indicator-radius=240
-indicator-thickness=20
-clock
-timestr = %I:%M %p
-datestr = %A, %d %B
-ring-color = #99D1DB
-key-hl-color = #A6D189
-line-color = #303446
-separator-color = #838BA7
-inside-color = #303446
-bs-hl-color = #E78284
-layout-bg-color = #838BA7
-layout-border-color = #A5ADCE
-layout-text-color = #B5BFE2
-text-color = #B5BFE2
+
+# Colors
+bs-hl-color=#ffffff
+
+key-hl-color=#1E1E2F
+
+inside-color=#1E1E2F
+inside-clear-color=#1E1E2F
+inside-caps-lock-color=#1E1E2F
+inside-ver-color=#A6E3A1
+inside-wrong-color=#f38ba8
+
+ring-clear-color=#cba6f7
+ring-caps-lock-color=#f38ba8
+ring-ver-color=#A6E3A1
+ring-color=#F5E0DC
+ring-wrong-color=#D4738E
+
+text-color=#cba6f7
+text-clear-color=#1e1e2e
+
+caps-lock-key-hl-color=#f38ba8
+
 # vim:ft=conf

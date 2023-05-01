@@ -15,6 +15,7 @@ return {
         marksman = {},
         rust_analyzer = {},
         -- tsserver = {},
+        zls = {},
       },
     },
   },
@@ -87,6 +88,7 @@ return {
         -- "typescript",
         "vim",
         "yaml",
+        "zig",
       },
       incremental_selection = {
         enable = true,
@@ -130,14 +132,8 @@ return {
       }
     end,
   },
-  -- vim be good
-  {
-    "ThePrimeagen/vim-be-good",
-  },
+  -- haskell
   {
     "mrcjkb/haskell-tools.nvim",
-  },
-  {
-    "elkowar/yuck.vim",
   },
 }
