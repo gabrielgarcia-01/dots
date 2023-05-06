@@ -9,13 +9,13 @@ return {
         bashls = {},
         clangd = {},
         gopls = {},
-        hls = {},
+        -- hls = {},
         jdtls = {},
         pyright = {},
         marksman = {},
         rust_analyzer = {},
         -- tsserver = {},
-        zls = {},
+        -- zls = {},
       },
     },
   },
@@ -70,10 +70,11 @@ return {
         "c",
         "cpp",
         "go",
-        "haskell",
+        -- "haskell",
         -- "help",
         -- "html",
         -- "javascript",
+        "java",
         "json",
         "lua",
         "luap",
@@ -88,7 +89,7 @@ return {
         -- "typescript",
         "vim",
         "yaml",
-        "zig",
+        -- "zig",
       },
       incremental_selection = {
         enable = true,
@@ -131,9 +132,5 @@ return {
         },
       }
     end,
-  },
-  -- haskell
-  {
-    "mrcjkb/haskell-tools.nvim",
   },
 }

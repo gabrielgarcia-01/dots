@@ -55,7 +55,7 @@
     "tooltip-format": "{time}"
   },
   "network": {
-    "format-wifi": "<span size='13000' foreground='#89dceb'>直 </span>{essid}",
+    "format-wifi": "<span size='13000' foreground='#89dceb'> </span>{essid}",
     "format-ethernet": "<span size='13000' foreground='#89dceb'> < /span> Disconnected",
     "format-disconnected": "<span size='13000' foreground='#EBA0AC'>  </span>Disconnected",
     "on-click": "~/dots/waybar/scripts/network/rofi-network-manager.sh"
@@ -63,7 +63,7 @@
   "pulseaudio": {
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
     "format": "<span size='13000' foreground='#F9E2AF'>{icon}</span> {volume}%",
-    "format-muted": "<span size='14000' foreground='#F9E2AF'>婢 </span> Muted",
+    "format-muted": "<span size='14000' foreground='#F9E2AF'> </span> Muted",
     "format-icons": {
       "headphone": "",
       "hands-free": "",
@@ -71,7 +71,7 @@
       "default": [
         "",
         "",
-        "墳"
+        " "
       ]
     }
   },
@@ -87,8 +87,8 @@
   },
   "disk": {
     "interval": 30,
-    "format": "  {percentage_free}% ",
-    "format-alt": "  {free} "
+    "format": "  {percentage_free}% ",
+    "format-alt": "  {free} "
   },
   "backlight": {
     "device": "eDP-1",
@@ -109,7 +109,7 @@
   },
   "custom/lock": {
     "tooltip": false,
-    "on-click": "swaylock --image /home/gabriel/dots/hypr/wallpapers/island.png",
+    "on-click": "swaylock --image /home/gabriel/dots/hypr/wallpapers/island.jpg",
     "format": ""
   },
   "custom/power-menu": {

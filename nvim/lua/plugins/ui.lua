@@ -13,11 +13,25 @@ return {
   },
   {
     "catppuccin/nvim",
+    config = function()
+      require("catppuccin").setup({
+        flavour = "mocha",
+        transparent_background = true,
+        styles = {
+          comments = { "italic" },
+          conditionals = { "italic" },
+          functions = { "bold" },
+        },
+        integrations = {
+          mini = true,
+        },
+      })
+    end,
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-mocha",
+      colorscheme = "catppuccin",
     },
   },
   {
