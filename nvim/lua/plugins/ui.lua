@@ -205,7 +205,7 @@ return {
     "andweeb/presence.nvim",
     opts = {
       auto_update = true,
-      client_id = "1063120969985691698",
+      client_id = "1104661306918838384",
       blacklist = {}, -- A list of strings or Lua patterns that disable Rich Presence if the current file name, path, or workspace matches
       git_commit_text = "Committing changes", -- Format string rendered when commiting changes in git
       plugin_manager_text = "Managing plugins", -- Format string rendered when managing plugins
@@ -215,7 +215,7 @@ return {
       main_image = "neovim", -- Main image display (either "neovim" or "file")
       neovim_image_text = "The One True Text Editor", -- Text displayed when hovered over the Neovim image
       image_text = "Made with love <3", -- Text displayed when hovered over the file or workspace image
-      log_level = nil, -- Log messages at or above this level
+      log_level = "info", -- Log messages at or above this level
       debounce_timeout = 10, -- Number of seconds to debounce events
       enable_line_number = true, -- Displays the current line number instead of the current project
       buttons = true, -- Configure Rich Presence button(s)

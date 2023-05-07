@@ -23,8 +23,8 @@ alias mv='mv -iv'
 # fzf with preview window + bat syntax highlighting
 alias fzf='fzf --preview "bat --color=always {}" --preview-window '~3''
 
-# kitty
-alias icat='kitty +kitten icat'
+# wezterm imgcat
+alias imgcat='wezterm imgcat'
 
 alias ..='cd ..'
 

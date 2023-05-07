@@ -164,7 +164,7 @@
 	# corners.
 	# The radius will be automatically lowered if it exceeds half of the
 	# notification height to avoid clipping text and/or icons.
-	corner_radius = 17
+	corner_radius = 15
 
 	# Always run rule-defined scripts, even if the notification is suppressed
 	always_run_script = true
@@ -177,16 +177,13 @@
   frame_color = "#F5E0DC"
   separator_color= frame
 
-[songArtLogger]
-	script = ~/.config/dunst/scripts/songArtLogger.sh
-
 [urgency_low]
 	timeout = 6
   background = "#1E1E2E"
   foreground = "#CDD6F4"
 
 [urgency_normal]
-	# script = ~/.config/dunst/scripts/playNotificationSound.sh
+	script = ~/.config/dunst/scripts/playNotificationSound.sh
 	timeout = 6
   background = "#1E1E2E"
   foreground = "#CDD6F4"
@@ -199,6 +196,7 @@
   background = "#1E1E2E"
   foreground = "#CDD6F4"
   frame_color = "#FAB387"
+
 [backlight]
 	summary = "Backlight"
 	highlight = "#E5C890"
