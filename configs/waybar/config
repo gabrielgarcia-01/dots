@@ -1,0 +1,129 @@
+{
+  "position": "top",
+  "layer": "top",
+  "modules-left": [
+    "custom/launcher",
+    "wlr/workspaces"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "memory",
+    "disk",
+    "cpu",
+    "backlight",
+    "network",
+    "pulseaudio",
+    "battery",
+    "custom/lock",
+    "custom/power-menu",
+    "tray"
+  ],
+  "wlr/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "all-outputs": false,
+    "sort-by-numbers": false,
+    "format-icons": {
+      "default": "",
+      "active": "",
+      "urgent": ""
+    }
+  },
+  "clock": {
+    "format": "<span foreground='#8839EF'>  {:%a %d %I:%M}</span>",
+    "on-click": "gnome-calendar"
+  },
+  "battery": {
+    "states": {
+      "warning": 20,
+      "critical": 10
+    },
+    "format": "<span size='13000' foreground='#40A02B' {capacity}%>{icon}</span>",
+    "format-warning": "<span size='13000' foreground='#40A02B' {capacity}%>{icon}</span>",
+    "format-critical": "<span size='13000' foreground='#D20F39'>{icon} {capacity}%</span>",
+    "format-charging": "<span size='13000' foreground='#40A02B'> {capacity}%</span>",
+    "format-plugged": "<span size='13000' foreground='#40A02B'> {capacity}%</span>",
+    "format-alt": "<span size='13000' foreground='#40A02B'>{icon} {time}</span>",
+    "format-full": "<span size='13000' foreground='#40A02B'> {capacity}%</span>",
+    "format-icons": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "tooltip-format": "{time}"
+  },
+  "network": {
+    "format-wifi": "<span size='13000' foreground='#04A5E5'> {essid}</span>",
+    "format-ethernet": "<span size='13000' foreground='#04A5E5'>  Disconnected< /span>",
+    "format-disconnected": "<span size='13000' foreground='#E64553'>  Disconnected</span>",
+    "on-click": "~/dots/configs/waybar/scripts/network/rofi-network-manager.sh"
+  },
+  "pulseaudio": {
+    "on-click": "pavucontrol",
+    "format": "<span size='13000' foreground='#DF8E1D'>{volume}% {icon}</span>",
+    "format-muted": "<span size='14000' foreground='#DF8E1D'>  Muted</span>",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "default": [
+        "",
+        "",
+        " "
+      ]
+    }
+  },
+  "cpu": {
+    "interval": 10,
+    "format": "<span size='13000' foreground='#D20F39'>  {}% </span>",
+    "max-length": 10
+  },
+  "memory": {
+    "interval": 30,
+    "format": "<span size='13000' foreground='#40A02B'>  {}% </span>",
+    "format-alt": "<span size='13000' foreground='#40A02B'>  {used:0.1f}GB </span> "
+  },
+  "disk": {
+    "interval": 30,
+    "format": "<span size='13000' foreground='#8839EF'> {percentage_free}%</span>",
+    "format-alt": "<span size='13000' foreground='#8839EF'> {free}%</span>"
+  },
+  "backlight": {
+    "device": "eDP-1",
+    "format": "<span size='13000' foreground='#DF8E1D'>{icon}{percent}%</span>",
+    "tooltip-format": "{percent}",
+    "format-icons": [
+      "󱩎 ",
+      "󱩏 ",
+      "󱩐 ",
+      "󱩑 ",
+      "󱩒 ",
+      "󱩓 ",
+      "󱩔 ",
+      "󱩕 ",
+      "󱩖 ",
+      "󰛨 "
+    ]
+  },
+  "custom/lock": {
+    "tooltip": false,
+    "on-click": "swaylock --image ~/dots/configs/hypr/wallpapers/island.jpg",
+    "format": "<span size='13000' foreground='#E64553'>  </span>"
+  },
+  "custom/power-menu": {
+    "format": "<span size='13000' foreground='#FAB387'> ⏻ </span>",
+    "on-click": "wlogout"
+  },
+  "custom/launcher": {
+    "format": "<span size='13000' foreground='#04A5E5'> </span>",
+    "on-click": "rofi -show drun &"
+  },
+  "tray": {
+    "spacing": 7
+  }
+}
+// vim:ft=jsonc

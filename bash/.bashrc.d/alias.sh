@@ -39,10 +39,9 @@ alias path='echo -e ${PATH//:/\\n}'
 alias du='du -kh'
 alias df='df -kTh'
 
-# running obsidian
-alias obsidian='obsidain --enable-features=UseOzonePlatform --ozone-platform=wayland'
-
-alias discord='discord --enable-features=UseOzonePlatform --ozone-platform=wayland'
+# wayland fixes
+alias obsidian='obsidian --enable-features=UseOzonePlatform --ozone-platform=wayland'
+alias discord-canary='discord-canary --enable-features=UseOzonePlatform --ozone-platform=wayland'
 
 # weather curl
 alias weather='curl wttr.in/Miami'
