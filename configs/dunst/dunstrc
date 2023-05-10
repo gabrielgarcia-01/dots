@@ -174,31 +174,31 @@
 	mouse_middle_click = do_action, close_current
 	mouse_right_click = close_all
   
-  frame_color = "#F5E0DC"
+  frame_color = "#DC8A78"
   separator_color= frame
 
 [urgency_low]
 	timeout = 6
-  background = "#1E1E2E"
-  foreground = "#CDD6F4"
+  background = "#EFF1F5"
+  foreground = "#4C4F69"
 
 [urgency_normal]
 	timeout = 6
-  background = "#1E1E2E"
-  foreground = "#CDD6F4"
-	highlight = "#F5E0DC"
+  background = "#EFF1F5"
+  foreground = "#4C4F69"
+	highlight = "#DC8A78"
 
 [urgency_critical]
 	script = ~/.config/dunst/scripts/playNotificationSound.sh
 	timeout = 6
-	highlight = "#F38BA8"
-  background = "#1E1E2E"
-  foreground = "#CDD6F4"
-  frame_color = "#FAB387"
+	highlight = "#D20F39"
+  background = "#EFF1F5"
+  foreground = "#4C4F69"
+  frame_color = "#FE640B"
 
 [backlight]
 	summary = "Backlight"
-	highlight = "#F9E2AF"
+	highlight = "#E5C890"
 	set_stack_tag = "backlight"
 
 [volume]
@@ -207,8 +207,8 @@
 
 [volume-muted]
 	summary = "Volume Muted"
-	highlight = "#F38BA8"
+	highlight = "#D20F39"
 
 [volume-unmuted]
 	summary = "Volume Unmuted"
-	highlight = "#F38BA8"
+	highlight = "#D20F39"

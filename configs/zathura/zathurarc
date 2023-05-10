@@ -4,4 +4,4 @@ set selection-clipboard "clipboard"
 set window-title-page true
 set font "JetBrains Mono"
 
-include catppuccin-mocha
+include catppuccin-latte

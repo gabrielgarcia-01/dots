@@ -1,4 +1,4 @@
-@import "/home/gabriel/dots/configs/waybar/catppuccin.css";
+@import "/home/gabriel/dots/configs/waybar/latte.css";
 * {
   border-radius: 0;
   font-family: Material Design Icons, JetBrains Mono, Iosevka;
@@ -8,19 +8,19 @@
 
 window#waybar {
   background: transparent;
-  color: @theme_text_color;
+  color: @text;
 }
 
 tooltip {
-	background: @theme_base_color;
+	background: @base;
 	border-radius: 15px;
 	border-width: 2px;
 	border-style: solid;
-	border-color: @theme_base_color;
+	border-color: @base;
 }
 
 #workspaces {
-  background: @theme_base_color;
+  background: @base;
   border-radius: 15px;
 }
 
@@ -28,7 +28,7 @@ tooltip {
   padding-left: 10px;
   padding-right: 10px;
   min-width: 0;
-  color: @theme_text_color;
+  color: @text;
 }
 
 #workspaces button.active {
@@ -36,14 +36,14 @@ tooltip {
 }
 
 #workspaces button.urgent {
-  color: @theme_base_color;
+  color: @base;
   background: @red;
   border-radius: 10px;
 }
 
 #workspaces button:hover {
-  background: @theme_base_color;
-  border-color: @theme_base_color;
+  background: @base;
+  border-color: @base;
   border-radius: 10px;
 	color: @blue;
 }
@@ -52,7 +52,7 @@ tooltip {
   margin-top: 5px;
   margin-bottom: 5px;
 	padding: 2px 10px;
-  background: @theme_base_color;
+  background: @base;
 }
 
 #network {
@@ -60,10 +60,12 @@ tooltip {
   margin-bottom: 5px;
   padding-left: 15px;
   padding-right: 2px;
-  background: @theme_base_color;
+  color: @sky;
+  background: @base;
 }
 
 #clock {
+  color: @mauve;
   padding-right: 15px;
   margin-right: 5px;
   padding-left: 15px;
@@ -71,29 +73,38 @@ tooltip {
   border-radius: 15px;
 }
 
+#pulseaudio {
+  color: @rosewater;
+}
+
 #battery {
+  color: @green;
   padding-right: 15px;
   margin-right: 5px;
   border-radius:0px 15px 15px 0px;
 }
 
 #cpu {
+  color: @red;
   padding-left: 2px;
   padding-right: 2px;
 }
 
 #memory {
+  color: @green;
   padding-left: 2px;
   padding-right: 2px;
   border-radius: 15px 0px 0px 15px;
 }
 
 #disk {
+  color: @mauve;
   padding-left: 2px;
   padding-right: 2px;
 }
 
 #backlight {
+  color: @yellow;
   padding-left: 2px;
   padding-right: 2px;
 }
@@ -104,6 +115,7 @@ tooltip {
   color: @maroon;
 }
 #custom-launcher {
+  color: @sky;
   padding-left: 15px;
   padding-right: 10px;
   border-radius: 15px;
@@ -118,7 +130,7 @@ tooltip {
   margin-right: 5px;
 }
 #tray {
-  background: @theme_base_color;
+  background: @base;
   padding-left: 5px;
   padding-right: 10px;
   padding-left: 10px;
