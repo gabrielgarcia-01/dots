@@ -9,9 +9,6 @@ return {
     },
   },
   {
-    "folke/tokyonight.nvim",
-  },
-  {
     "catppuccin/nvim",
     config = function()
       require("catppuccin").setup({
@@ -30,7 +27,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-latte",
+      colorscheme = "catppuccin-mocha",
     },
   },
   {

@@ -70,9 +70,6 @@ function extract() {
     esac
 }
 
-# tre editor alias
-function tre() { command tre "$@" -e && source "/tmp/tre_aliases_$USER" 2>/dev/null; }
-
 function nman() {
     # [n]eovim [man] pages
     if [ -z "$1" ]; then

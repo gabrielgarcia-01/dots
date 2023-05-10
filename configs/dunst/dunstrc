@@ -183,7 +183,6 @@
   foreground = "#CDD6F4"
 
 [urgency_normal]
-	script = ~/.config/dunst/scripts/playNotificationSound.sh
 	timeout = 6
   background = "#1E1E2E"
   foreground = "#CDD6F4"
@@ -199,7 +198,7 @@
 
 [backlight]
 	summary = "Backlight"
-	highlight = "#E5C890"
+	highlight = "#F9E2AF"
 	set_stack_tag = "backlight"
 
 [volume]

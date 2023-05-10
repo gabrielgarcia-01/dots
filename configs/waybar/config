@@ -32,7 +32,7 @@
     }
   },
   "clock": {
-    "format": "<span foreground='#8839EF'>  {:%a %d %I:%M}</span>",
+    "format": "<span foreground='#CBA6F7'>  {:%a %d %I:%M}</span>",
     "on-click": "gnome-calendar"
   },
   "battery": {
@@ -40,13 +40,13 @@
       "warning": 20,
       "critical": 10
     },
-    "format": "<span size='13000' foreground='#40A02B' {capacity}%>{icon}</span>",
-    "format-warning": "<span size='13000' foreground='#40A02B' {capacity}%>{icon}</span>",
-    "format-critical": "<span size='13000' foreground='#D20F39'>{icon} {capacity}%</span>",
-    "format-charging": "<span size='13000' foreground='#40A02B'> {capacity}%</span>",
-    "format-plugged": "<span size='13000' foreground='#40A02B'> {capacity}%</span>",
-    "format-alt": "<span size='13000' foreground='#40A02B'>{icon} {time}</span>",
-    "format-full": "<span size='13000' foreground='#40A02B'> {capacity}%</span>",
+    "format": "<span size='13000' foreground='#A6E3A1' {capacity}%>{icon}</span>",
+    "format-warning": "<span size='13000' foreground='#A6E3A1' {capacity}%>{icon}</span>",
+    "format-critical": "<span size='13000' foreground='#F38BA8'>{icon} {capacity}%</span>",
+    "format-charging": "<span size='13000' foreground='#A6E3A1'> {capacity}%</span>",
+    "format-plugged": "<span size='13000' foreground='#A6E3A1'> {capacity}%</span>",
+    "format-alt": "<span size='13000' foreground='#A6E3A1'>{icon} {time}</span>",
+    "format-full": "<span size='13000' foreground='#A6E3A1'> {capacity}%</span>",
     "format-icons": [
       " ",
       " ",
@@ -57,15 +57,15 @@
     "tooltip-format": "{time}"
   },
   "network": {
-    "format-wifi": "<span size='13000' foreground='#04A5E5'> {essid}</span>",
-    "format-ethernet": "<span size='13000' foreground='#04A5E5'>  Disconnected< /span>",
-    "format-disconnected": "<span size='13000' foreground='#E64553'>  Disconnected</span>",
+    "format-wifi": "<span size='13000' foreground='#89DCEB'> {essid}</span>",
+    "format-ethernet": "<span size='13000' foreground='#89DCEB'>  Disconnected< /span>",
+    "format-disconnected": "<span size='13000' foreground='#F38BA8'>  Disconnected</span>",
     "on-click": "~/dots/configs/waybar/scripts/network/rofi-network-manager.sh"
   },
   "pulseaudio": {
     "on-click": "pavucontrol",
-    "format": "<span size='13000' foreground='#DF8E1D'>{volume}% {icon}</span>",
-    "format-muted": "<span size='14000' foreground='#DF8E1D'>  Muted</span>",
+    "format": "<span size='13000' foreground='#F9E2AF'>{volume}% {icon}</span>",
+    "format-muted": "<span size='14000' foreground='#F9E2AF'>  Muted</span>",
     "format-icons": {
       "headphone": "",
       "hands-free": "",
@@ -79,22 +79,22 @@
   },
   "cpu": {
     "interval": 10,
-    "format": "<span size='13000' foreground='#D20F39'>  {}% </span>",
+    "format": "<span size='13000' foreground='#F38BA8'>   {}% </span>",
     "max-length": 10
   },
   "memory": {
     "interval": 30,
-    "format": "<span size='13000' foreground='#40A02B'>  {}% </span>",
-    "format-alt": "<span size='13000' foreground='#40A02B'>  {used:0.1f}GB </span> "
+    "format": "<span size='13000' foreground='#A6E3A1'>  {}% </span>",
+    "format-alt": "<span size='13000' foreground='#A6E3A1'>  {used:0.1f}GB </span> "
   },
   "disk": {
     "interval": 30,
-    "format": "<span size='13000' foreground='#8839EF'> {percentage_free}%</span>",
-    "format-alt": "<span size='13000' foreground='#8839EF'> {free}%</span>"
+    "format": "<span size='13000' foreground='#CBA6F7'> {percentage_free}%</span>",
+    "format-alt": "<span size='13000' foreground='#CBA6F7'> {free}</span>"
   },
   "backlight": {
     "device": "eDP-1",
-    "format": "<span size='13000' foreground='#DF8E1D'>{icon}{percent}%</span>",
+    "format": "<span size='13000' foreground='#F9E2AF'>{icon}{percent}%</span>",
     "tooltip-format": "{percent}",
     "format-icons": [
       "󱩎 ",
@@ -112,14 +112,14 @@
   "custom/lock": {
     "tooltip": false,
     "on-click": "swaylock --image ~/dots/configs/hypr/wallpapers/island.jpg",
-    "format": "<span size='13000' foreground='#E64553'>  </span>"
+    "format": "<span size='13000' foreground='#F38BA8'>  </span>"
   },
   "custom/power-menu": {
     "format": "<span size='13000' foreground='#FAB387'> ⏻ </span>",
     "on-click": "wlogout"
   },
   "custom/launcher": {
-    "format": "<span size='13000' foreground='#04A5E5'> </span>",
+    "format": "<span size='13000' foreground='#89DCEB'> </span>",
     "on-click": "rofi -show drun &"
   },
   "tray": {
