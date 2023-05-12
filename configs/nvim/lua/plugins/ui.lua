@@ -31,6 +31,9 @@ return {
     },
   },
   {
+    "sainnhe/gruvbox-material",
+  },
+  {
     "nvim-lualine/lualine.nvim",
     event = "VeryLazy",
     opts = function(plugin)
